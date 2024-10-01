@@ -1,0 +1,351 @@
+Loading script /Users/yushutian/Desktop/Code/ManualTest/res/com.tencent.map/networkflow_com.tencent.map.py
+Proxy server listening at *:8080
+10.162.187.127:47056: client connect
+10.162.187.127:47058: client connect
+We've seen 1 flows
+10.162.187.127:47058: server connect 112.65.195.181:80
+10.162.187.127:47062: client connect
+We've seen 2 flows
+10.162.187.127:47062: server connect 112.65.195.181:80
+10.162.187.127:47064: client connect
+We've seen 3 flows
+10.162.187.127:47064: server connect 112.65.195.181:80
+10.162.187.127:47066: client connect
+We've seen 4 flows
+10.162.187.127:47062: POST http://112.65.195.181/
+                   << 200 OK 503b
+10.162.187.127:47066: server connect 112.65.195.181:80
+10.162.187.127:47058: POST http://112.65.195.181/
+                   << 200 OK 22.8k
+10.162.187.127:47066: POST http://112.65.195.181/
+                   << 200 OK 863b
+10.162.187.127:47064: POST http://112.65.195.181/
+                   << 200 OK 1.7k
+10.162.187.127:47068: client connect
+10.162.187.127:47068: server connect beacons.gvt2.com:443 ([2401:3800:4002:800::1002]:443)
+10.162.187.127:47068: Client TLS handshake failed. The client does not trust the proxy's certificate for beacons.gvt2.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))
+10.162.187.127:47068: client disconnect
+10.162.187.127:47068: server disconnect beacons.gvt2.com:443 ([2401:3800:4002:800::1002]:443)
+10.162.187.127:47070: client connect
+We've seen 5 flows
+10.162.187.127:47072: client connect
+We've seen 6 flows
+10.162.187.127:47074: client connect
+We've seen 7 flows
+10.162.187.127:47070: server connect 101.226.144.141:80
+We've seen 8 flows
+10.162.187.127:47072: server connect 183.47.125.78:80
+10.162.187.127:47074: server connect 123.151.56.102:80
+10.162.187.127:47064: POST http://112.65.195.181/
+                   << 200 OK 2.5k
+10.162.187.127:47070: POST http://101.226.144.141/
+                   << 200 OK 521b
+10.162.187.127:47074: POST http://123.151.56.102/
+                   << 200 OK 2.7k
+10.162.187.127:47076: client connect
+We've seen 9 flows
+10.162.187.127:47072: POST http://183.47.125.78/
+                   << 200 OK 1.7k
+10.162.187.127:47076: server connect 116.130.229.78:80
+10.162.187.127:47076: POST http://116.130.229.78/
+                   << 200 OK 410b
+10.162.187.127:47078: client connect
+We've seen 10 flows
+10.162.187.127:47078: server connect 116.130.229.78:80
+10.162.187.127:47078: POST http://116.130.229.78/
+                   << 200 OK 411b
+10.177.87.63:47820: client connect
+10.177.87.63:47820: server connect mmapgwh.map.qq.com:443 ([240e:97c:2f:1::8d]:443)
+We've seen 11 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/indoormapx/co… HTTP/2.0
+        << HTTP/2.0 200 OK 64b
+We've seen 12 flows
+10.177.87.63:47848: client connect
+We've seen 13 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/dtm_tile/conf… HTTP/2.0
+        << HTTP/2.0 200 OK 144b
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unity_model/v… HTTP/2.0
+        << HTTP/2.0 200 OK 1.6k
+We've seen 14 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/c… HTTP/2.0
+        << HTTP/2.0 200 OK 80b
+We've seen 15 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/c… HTTP/2.0
+        << HTTP/2.0 200 OK 64b
+We've seen 16 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/td/api/v1/get-diff-config HTTP/2.0
+        << HTTP/2.0 200 OK 96b
+We've seen 17 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/athena/api/res/theme_square_… HTTP/2.0
+        << HTTP/2.0 200 OK 25.4k
+We've seen 18 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/c… HTTP/2.0
+        << HTTP/2.0 200 OK 320b
+We've seen 19 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/bbmap/config?… HTTP/2.0
+        << HTTP/2.0 200 OK 176b
+We've seen 20 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/arch_config/coscredential?pf… HTTP/2.0
+        << HTTP/2.0 200 OK 804b
+10.177.87.63:47910: client connect
+We've seen 21 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/tileplat/layer_qry/config_qr… HTTP/2.0
+        << HTTP/2.0 200 OK 64b
+10.177.87.63:47912: client connect
+We've seen 22 flows
+We've seen 23 flows
+We've seen 24 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 21.1k
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/tileplat/hubble/weather_styl… HTTP/2.0
+        << HTTP/2.0 200 OK 80b
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/bbmap/config?… HTTP/2.0
+        << HTTP/2.0 200 OK 160b
+We've seen 25 flows
+We've seen 26 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/locshare/get HTTP/2.0
+        << HTTP/2.0 200 OK 128b
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/black_white_l… HTTP/2.0
+        << HTTP/2.0 200 OK 2.7k
+We've seen 27 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/push/reddot/getreddotconfig HTTP/2.0
+        << HTTP/2.0 200 OK 480b
+10.177.87.63:47916: client connect
+10.177.87.63:47918: client connect
+We've seen 28 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/athena/api/res/info HTTP/2.0
+        << HTTP/2.0 200 OK 9.3k
+We've seen 29 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/td/api/v1/get-preprocess-inf… HTTP/2.0
+        << HTTP/2.0 200 OK 64b
+We've seen 30 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 15.7k
+We've seen 31 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/push/reddot/reportreddot HTTP/2.0
+        << HTTP/2.0 200 OK 64b
+We've seen 32 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/bbmap/config?… HTTP/2.0
+        << HTTP/2.0 200 OK 160b
+We've seen 33 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/config&suid=e… HTTP/2.0
+        << HTTP/2.0 404 Not Found 64b
+We've seen 34 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/bbmap/config?… HTTP/2.0
+        << HTTP/2.0 200 OK 160b
+10.177.87.63:47952: client connect
+10.177.87.63:47950: client connect
+We've seen 35 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 7.5k
+We've seen 36 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/weather-severe/v1/list HTTP/2.0
+        << HTTP/2.0 200 OK 448b
+We've seen 37 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_closed… HTTP/2.0
+        << HTTP/2.0 200 OK 2.6k
+We've seen 38 flows
+We've seen 39 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/bbmap/style?e… HTTP/2.0
+        << HTTP/2.0 200 OK 18.4k
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/long-connect/author HTTP/2.0
+        << HTTP/2.0 200 OK 144b
+We've seen 40 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/bbmap/style?e… HTTP/2.0
+        << HTTP/2.0 200 OK 19.9k
+10.177.87.63:47970: client connect
+We've seen 41 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/indoormapx/in… HTTP/2.0
+        << HTTP/2.0 200 OK 192b
+10.177.87.63:47972: client connect
+We've seen 42 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/athena/api/res/info HTTP/2.0
+        << HTTP/2.0 200 OK 768b
+We've seen 43 flows
+We've seen 44 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/athena/api/res/info HTTP/2.0
+        << HTTP/2.0 200 OK 560b
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 100k
+We've seen 45 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 16.8k
+We've seen 46 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_closed… HTTP/2.0
+        << HTTP/2.0 200 OK 2.7k
+We've seen 47 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 11.8k
+We've seen 48 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 256b
+We've seen 49 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 128b
+We've seen 50 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 288b
+10.177.87.63:47848: client disconnect
+10.177.87.63:47848: error establishing server connection: client disconnected
+10.177.87.63:47848: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+We've seen 51 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 7.5k
+We've seen 52 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 176b
+We've seen 53 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 100k
+10.177.87.63:47910: client disconnect
+10.177.87.63:47910: error establishing server connection: client disconnected
+10.177.87.63:47910: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+10.177.87.63:47912: client disconnect
+10.177.87.63:47912: error establishing server connection: client disconnected
+10.177.87.63:47912: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+10.177.87.63:47916: client disconnect
+10.177.87.63:47916: error establishing server connection: client disconnected
+10.177.87.63:47916: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+10.177.87.63:47918: client disconnect
+10.177.87.63:47918: error establishing server connection: client disconnected
+10.177.87.63:47918: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+We've seen 54 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 96b
+We've seen 55 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 96b
+10.177.87.63:47952: client disconnect
+10.177.87.63:47952: error establishing server connection: client disconnected
+10.177.87.63:47952: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+10.177.87.63:47950: client disconnect
+10.177.87.63:47950: error establishing server connection: client disconnected
+10.177.87.63:47950: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+We've seen 56 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 176b
+We've seen 57 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 96b
+We've seen 58 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 10.1k
+10.177.87.63:47970: client disconnect
+10.177.87.63:47970: error establishing server connection: client disconnected
+10.177.87.63:47970: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+We've seen 59 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 12.5k
+10.177.87.63:47972: client disconnect
+10.177.87.63:47972: error establishing server connection: client disconnected
+10.177.87.63:47972: CONNECT gmscompliance-pa.googleapis.com:443
+                 << 502 Bad Gateway 74b
+We've seen 60 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 12.3k
+We've seen 61 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 160b
+We've seen 62 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 144b
+We've seen 63 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 192b
+We've seen 64 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/tileplat/hubble/weather_styl… HTTP/2.0
+        << HTTP/2.0 200 OK 80b
+We've seen 65 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 7.5k
+We've seen 66 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 11.8k
+We've seen 67 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 6.5k
+We've seen 68 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 16.1k
+We've seen 69 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 51.7k
+We've seen 70 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 48.6k
+We've seen 71 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 11.8k
+We've seen 72 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 7.5k
+We've seen 73 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/apollo/api/v1/46fcdcf/get-di… HTTP/2.0
+        << HTTP/2.0 200 OK 30.7k
+We've seen 74 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 208b
+We've seen 75 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/c… HTTP/2.0
+        << HTTP/2.0 200 OK 80b
+10.162.187.127:47062: server disconnect 112.65.195.181:80
+10.162.187.127:47058: server disconnect 112.65.195.181:80
+10.162.187.127:47066: server disconnect 112.65.195.181:80
+We've seen 76 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 608b
+We've seen 77 flows
+10.162.187.127:47070: server disconnect 101.226.144.141:80
+10.162.187.127:47064: server disconnect 112.65.195.181:80
+10.162.187.127:47074: server disconnect 123.151.56.102:80
+10.162.187.127:47072: server disconnect 183.47.125.78:80
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 51.7k
+10.162.187.127:47076: server disconnect 116.130.229.78:80
+10.162.187.127:47078: server disconnect 116.130.229.78:80
+We've seen 78 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/c… HTTP/2.0
+        << HTTP/2.0 200 OK 320b
+We've seen 79 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 48.6k
+We've seen 80 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 7.5k
+We've seen 81 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/basemap/mobile/unimap_rtt/rt… HTTP/2.0
+        << HTTP/2.0 200 OK 11.8k
+We've seen 82 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/rest/qqmap/1.0/dynamic?encry… HTTP/2.0
+        << HTTP/2.0 200 OK 96b
+We've seen 83 flows
+We've seen 84 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/tileplat/hubble/weather_styl… HTTP/2.0
+        << HTTP/2.0 200 OK 80b
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 51.7k
+We've seen 85 flows
+10.177.87.63:47820: GET https://mmapgwh.map.qq.com/rest/qqmap/2.0/behavior?encr… HTTP/2.0
+        << HTTP/2.0 200 OK 1.3k
+We've seen 86 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 48.6k
+We've seen 87 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/tileplat/hubble/weather_styl… HTTP/2.0
+        << HTTP/2.0 200 OK 80b
+We've seen 88 flows
+10.177.87.63:47820: POST https://mmapgwh.map.qq.com/basemap/mobile/unimap_tile/n… HTTP/2.0
+        << HTTP/2.0 200 OK 208b
+10.177.87.63:47820: client disconnect
+10.177.87.63:47820: server disconnect mmapgwh.map.qq.com:443 ([240e:97c:2f:1::8d]:443)
+10.162.187.127:47056: error establishing server connection: connection cancelled
+10.162.187.127:47056: CONNECT infinitedata-pa.googleapis.com:443
+                   << 502 Bad Gateway 74b
